@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "RAJVASTRASTORIES" },
+      { name: "description", content: "Rajvastra is a website for a Rajasthan-based clothing brand specializing in Bandhani textiles." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "RAJVASTRASTORIES" },
+      { property: "og:description", content: "Rajvastra is a website for a Rajasthan-based clothing brand specializing in Bandhani textiles." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "RAJVASTRASTORIES" },
+      { name: "twitter:description", content: "Rajvastra is a website for a Rajasthan-based clothing brand specializing in Bandhani textiles." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/46fc1f60-074b-4b37-8d88-387d1f3c1c66/id-preview-263647b3--e7872de7-65e9-4d56-9cc4-6c0538873af5.lovable.app-1779945384845.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/46fc1f60-074b-4b37-8d88-387d1f3c1c66/id-preview-263647b3--e7872de7-65e9-4d56-9cc4-6c0538873af5.lovable.app-1779945384845.png" },
     ],
     links: [
       {
